@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Jinx Arcade</title>
+    <link rel="stylesheet" href="css/juego.css">
+    <script type="text/javascript" src="js/juego.js"></script>
+    <link rel="shortcut icon" href="images/logo.ico">
+</head>
+
+<body>
+    <div class="col-40">
+        <div id="titulo">
+            <h1>Rompecabezas</h1>
+        </div>
+
+        <div id="instrucciones">
+            <h2>Instrucciones</h2>
+            <ul>
+                <li>Mover las piezas presionando las teclas de las flechas</li>
+                <li>Encontrar el orden correcto de las piezas</li>
+                <li>Dificultad:
+                    <select id="dificultad" name="Dificultad">
+                        <option value="1">Facil</option>
+                        <option value="2">Normal</option>
+                        <option value="3">Dificil</option>
+                    </select>
+                </li><br>
+                <input type="button" value="Iniciar el juego!" onClick="iniciar();"><br><br>
+                <input type="button" value="Reiniciar el juego!" onClick="window.location.reload()">
+            </ul>
+            <h3 id="GANASTE"></h3>
+            <img src="images/jinx.jpg">
+        </div>
+    </div>
+
+    <div class="col-60">
+        <div id="juego">
+            <div class="pieza" id="pieza1"> 
+                <img src="images/1.jpeg" alt="pieza1">
+            </div>
+            <div class="pieza" id="pieza2"> 
+                <img src="images/2.jpeg" alt="pieza2">
+            </div>
+            <div class="pieza" id="pieza3"> 
+                <img src="images/3.jpeg" alt="pieza3">
+            </div>
+            <div class="pieza" id="pieza4"> 
+                <img src="images/4.jpeg" alt="pieza4">
+            </div>
+            <div class="pieza" id="pieza5"> 
+                <img src="images/5.jpeg" alt="pieza5">
+            </div>
+            <div class="pieza" id="pieza6"> 
+                <img src="images/6.jpeg" alt="pieza6">
+            </div>
+            <div class="pieza" id="pieza7"> 
+                <img src="images/7.jpeg" alt="pieza7">
+            </div>
+            <div class="pieza" id="pieza8"> 
+                <img src="images/8.jpeg" alt="pieza8">
+            </div>
+            <div class="pieza" id="pieza9"></div>
+        </div>
+    </div>
+</body>
+
+</html>
